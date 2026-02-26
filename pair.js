@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "C:\Users\SCM Editor\Downloads\WhatsApp Image 2026-02-26 at 12.43.12.jpeg",
+                url: "https://raw.githubusercontent.com/scmeditor1212-collab/Bot-helper/refs/heads/main/WhatsApp%20Image%202026-02-26%20at%2012.43.12.jpeg",
               },
               caption: sid,
             });
@@ -129,5 +129,6 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
 
